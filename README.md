@@ -1,4 +1,6 @@
 # Curriculum Vitae
 ## LaTeX
 
-Writing my curriculum vitae in LaTeX.
+My curriculum vitae in LaTeX.
+
+Extended from: [Mr.Zool](https://github.com/mrzool/cv-boilerplate)

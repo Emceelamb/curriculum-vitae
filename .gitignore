@@ -1,2 +1,5 @@
 output/
-*.pdf
+*.aux
+*.out
+*.log
+
