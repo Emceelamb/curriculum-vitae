@@ -1,0 +1,62 @@
+\documentclass[10pt, a4paper]{article}
+
+\usepackage{geometry}
+\geometry{a4paper,left=35mm,right=35mm,top=51mm,bottom=17mm}
+
+\setlength\parindent{0in}
+
+\usepackage{multicol}
+\setlength{\columnsep}{-3.5cm}
+
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+
+\defaultfontfeatures{Mapping=tex-text}
+% \usepackage{times}
+\setmainfont [Ligatures={Common}, Numbers={OldStyle}]{Crimson}
+% \setmainfont{Merriweather}
+
+\usepackage{marginnote}
+\newcommand{\note}[1]{\marginnote{\scriptsize #1}}
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt}
+\reversemarginpar
+
+\usepackage{sectsty}
+\usepackage[normalem]{ulem}
+\sectionfont{\rmfamily\mdseries}
+\subsectionfont{\rmfamily\mdseries\scshape\normalsize}
+\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize}
+
+\usepackage{hyperref}
+\hypersetup
+{
+  pdfauthor={Mark Lam},
+  pdfsubject={Mark Lam's CV},
+  pdftitle={Mark Lam's CV},
+  colorlinks, breaklinks, xetex, bookmarks,
+  filecolor=black,
+  urlcolor=[rgb]{0.117,0.682,0.858},
+  linkcolor=[rgb]{0.117,0.682,0.858},
+  citecolor={0.117,0.682,0.858}
+}
+
+\begin{document}
+
+{\LARGE Mark Lam}\\[.2cm]
+\begin{multicols}{2}
+  1770 Dean St\\
+  Brooklyn, NY, USA\\
+
+  \vspace{-10pt}
+
+  +1 661 478 9651\\
+  mark@markofthelam.com\\
+  \columnbreak
+
+  markofthelam.com
+
+  github.com/emceelamb
+\end{multicols}
+\end{document}
