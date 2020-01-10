@@ -14,7 +14,7 @@ urls:
 
 # Sections
 
-intro: "I know my fate. One day my name will be associated with the memory of something tremendous --- a crisis without equal on earth, the most profound collision of conscience, a decision that was conjured up against everything that had been believed, demanded, hallowed so far. I am no man, I am dynamite."
+intro: "Mark Lam is a sculptor and media scholar turned developer. He has a background in visual design and has developed websites and digital design for e-commerce and independent business. Most recently he has been working towards a Master's degree at New York University where he researches media making with computer networking technology. His other interests include teaching programming, digital accessibility, and reading about media theory."
 
 skills:
 - Computer Networking for Expressive Media
