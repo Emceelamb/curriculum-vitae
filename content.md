@@ -14,7 +14,7 @@ urls:
 
 # Sections
 
-intro: "I'm a sculptor and media scholar turned developer with over five years experience developing websites and digital design for businesses ranging from e-commerce and independent artists. Most recently I have been working towards a Master's degree at New York University where I research interactive media making with computer networking technology. Some of my other interests include teaching programming, digital accessibility, and writing about philosphy in the technology industry."
+intro: "I'm a sculptor and media scholar turned developer with over five years experience developing websites and digital design for businesses ranging from e-commerce to independent artists. Most recently I have been working towards a Master's degree at New York University where I research interactive media making with computer networking technology. Some of my other interests include teaching programming, digital accessibility, and writing about philosphy in the technology industry."
 
 skills:
 - Computer Networking for Expressive Media

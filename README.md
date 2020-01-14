@@ -2,6 +2,8 @@
 
 My curriculum vitae in LaTeX.
 
+Feel free to use it as a starting point for your resume. Edit `content.md` and compile with `make`.
+
 Made with: 
 * Markdown for content
 * LaTeX for template
