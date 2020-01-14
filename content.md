@@ -14,11 +14,11 @@ urls:
 
 # Sections
 
-intro: "Mark Lam is a sculptor and media scholar turned developer. He has a background in visual design and has developed websites and digital design for e-commerce and independent business. Most recently he has been working towards a Master's degree at New York University where he researches media making with computer networking technology. His other interests include teaching programming, digital accessibility, and reading about media theory."
+intro: "I'm a sculptor and media scholar turned developer with over five years experience developing websites and digital design for businesses ranging from e-commerce and independent artists. Most recently I have been working towards a Master's degree at New York University where I research interactive media making with computer networking technology. Some of my other interests include teaching programming, digital accessibility, and writing about philosphy in the technology industry"
 
 skills:
 - Computer Networking for Expressive Media
-- Interactive Physical-Digital Interfaces Development
+- Interactive Interfaces
 - Real-time Tangible Data Visualization
 - Empathetic Conceptual Development 
 
