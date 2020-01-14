@@ -23,27 +23,39 @@ skills:
 - Empathetic Conceptual Development 
 
 experience:
-- years: 2015--
-  employer: Self-Employed
+- years: 2015--ongoing
+  employer: Self-employed
   job: Freelance Developer
-  city: HCMC, NYC, LA
+  city: NYC, HCMC, LA, Berkeley
+  achievements: 
+    - Design and develop websites for business ranging from personal artist websites to independent publishing houses
+    - Research and advise clients for web features including image api's to online payment procedure
+    - Scope timelines and specifications and work with clients to meet objectives
 - years: 2018--2019
   employer: Lincoln Center for the Performing Arts
   job: Digital Accessibility Fellow
   city: New York City
+  achievements: 
+    - Audit internal and external digital media of a world-class performing arts institution for WCAG 2.1 compliance
+    - Create internal digital accessibility training material to promote access for a diverse LCPA customer base
+    - Design and developed a fully compliant digital map of campus accessibility features to allow for increased physical access
+    - Created a captioning work process for a catalog of over 1000 hours of video content to bring media to digital compliance
 - years: 2018--2020
   employer: New York University - ITP
   job: Graduate Assistant -- Web Accessibility Developer
   city: New York City
+  achievements: 
+    - Developed and tested an internal help site for New York University's ITP program
+    - Work directly with faculty and staff to scope information priorities for 
+    - Implemented WAI-ARIA features to meet WCAG 2.1 compliance and university wide accessiblity iniative
 - years: 2017--2018
   employer: Ho Chi Minh City University of Technology & Education
   job: Visiting Lecturer -- Introductory Programming, English
   city: Ho Chi Minh City
-- years: 2015--2017
-  employer: JKH Group
-  job: Website Coordinator
-  city: Valencia
-  
+  achievements: 
+    - Developed an introductory English/programming curriculum in the C language for non-native English students
+    - Designed supplemental workshops for specialized topics such as web design and portfolio building 
+    - Collaborated with student leaders to promote extracurricular English
 
 education:
 - year: 2020
@@ -61,13 +73,13 @@ education:
 
 work:
 - year: 2020
-  title: Automating Mindfulness
+  title: Automating Mindfully
   subject: Technical Workshop
   institute: Unconference at ITP NYU
   city: New York City
   goals:
     - Introduction to Bash scripting
-    - Explore how automation can reduce mental fatigue
+    - Explore mindfulness and technology
 - year: 2019
   title: Network Operator
   subject: Performance
