@@ -23,31 +23,33 @@ skills:
 - Empathetic Conceptual Development 
 
 experience:
-- years: 2015--ongoing
-  employer: Self-employed
+- years: 2015--
+  employer: Mark of the Lam
   job: Freelance Developer
   city: NYC, HCMC, LA, Berkeley
   achievements: 
-    - Design and develop websites for business ranging from personal artist to independent publishing houses
-    - Research and advise clients on web features including image api's to online payment procedure
+    - Design and develop websites for business ranging from personal artists to independent publishing houses
+    - Implement web features including image api's to online payment procedure
     - Scope timelines and specifications while coordinating with clients to meet objectives
+    - Work with account managers to deploy websites to production and test for bugs and errors 
+- years: 2018--
+  employer: New York University - ITP
+  job: Graduate Assistant -- Web Accessibility Developer 
+  city: New York City
+  achievements: 
+    - Work with the accessibility team to develop and test a public facing resource site for New York University's ITP program
+    - Work directly with faculty and staff to scope information priorities and design website architecture
+    - Provide web support for non technical staff to address bugs and errors and incorporate features
+    - Promoted digital accessibility as a design consideration through creating training materials and workshops
 - years: 2018--2019
   employer: Lincoln Center for the Performing Arts
   job: Digital Accessibility Fellow
   city: New York City
   achievements: 
-    - Audit internal and external digital media of a world-class performing arts institution and write recommandations to meet WCAG 2.1 compliance
+    - Created an automated work process for captioning a catalog of over 1000 hours of video content
     - Create internal digital accessibility training material to promote access for a diverse customer base
+    - Audited internal and external digital media of a world-class performing arts institution and write recommendations to meet WCAG 2.1 and Section 508 compliance
     - Develop a fully compliant digital map of campus accessibility features to allow for increased physical access
-    - Create work process for captioning a catalog of over 1000 hours of video content to bring media to digital compliance
-- years: 2018--2020
-  employer: New York University - ITP
-  job: Graduate Assistant -- Web Accessibility Developer
-  city: New York City
-  achievements: 
-    - Develop and test an internal resource site for New York University's ITP program
-    - Work directly with faculty and staff to scope information priorities
-    - Implement WAI-ARIA features to meet WCAG 2.1 compliance and university wide accessiblity initiative
 - years: 2017--2018
   employer: Ho Chi Minh City University of Technology & Education
   job: Visiting Lecturer -- Introductory Programming, English
@@ -81,24 +83,24 @@ work:
   institute: Unconference at ITP NYU
   city: New York City
   goals:
-    - Introduction to Bash scripting
-    - Explore mindfulness and technology
+    - Introduction to Bash scripting language for beginner coders
+    - Explore automation as a meditative practice
 - year: 2019
   title: Network Operator
   subject: Performance
   institute: NIME 2019
   city: New York City
   goals:
-    - Explore computer networking technology as medium for musical expression
-    - Live network programming
+    - Created a system of 9 networked Raspberry Pi's to create a percussive instrument
+    - Developed custom servers to trigger motors based on network activity
 - year: 2019
   title: Lincoln Center Campus Accessibility Map
   subject: Digital Map
   institute: Lincoln Center for the Performing Arts
   city: New York City
   goals:
-    - Create an accessible digital map of the Lincoln Center Campus
-    - Extend Google Maps API to incorporate WAI-ARIA features
+    - Created a  digital map of the Lincoln Center Campus that is fully compliant to WCAG 2.1 standards
+    - Extended Google Maps API to incorporate WAI-ARIA features
   
 # Settings
 mainfont: Crimson

@@ -121,6 +121,22 @@ $endif$
 
 \vspace{25pt}
 
+
+\section*{Previous Experience}
+\noindent
+$for(experience)$
+\note{$experience.years$}\textsc{$experience.employer$}\\
+\emph{$experience.job$}\\
+$experience.city$
+$if(experience.achievements)$
+\begin{itemize}\small
+  $for(experience.achievements)$
+    \item $experience.achievements$
+  $endfor$
+\end{itemize}
+$endif$
+$endfor$
+
 $if(education)$
 \section*{Education}
 \noindent
@@ -130,22 +146,6 @@ $for(education)$
 $endfor$
 $endif$
 
-\section*{Previous Experience}
-\noindent
-$for(experience)$
-\note{$experience.years$}\textsc{$experience.employer$}\\
-\emph{$experience.job$}\\
-$experience.city$
-$if(experience.achievements)$
-\begin{itemize}\footnotesize
-  $for(experience.achievements)$
-    \item $experience.achievements$
-  $endfor$
-\end{itemize}
-$endif$
-$endfor$
-
-
 $if(work)$
 \section*{Projects \& Workshops}
 \noindent
@@ -153,7 +153,7 @@ $for(work)$
 \note{$work.year$}\textbf{$work.title$}$if(work.subject)$, $work.subject$$endif$\\
 \emph{$work.institute$}$if(work.city)$, $work.city$$endif$
 $if(work.goals)$
-\begin{itemize}\footnotesize
+\begin{itemize}\small
   $for(work.goals)$
     \item $work.goals$
   $endfor$
