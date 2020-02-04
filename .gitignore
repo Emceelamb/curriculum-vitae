@@ -2,4 +2,5 @@ output/
 *.aux
 *.out
 *.log
+applications/
 

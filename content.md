@@ -14,7 +14,7 @@ urls:
 
 # Sections
 
-intro: "I'm a sculptor and media scholar turned developer with over five years experience developing websites and digital design for businesses ranging from e-commerce to independent artists. I am pursuing a Master's degree at New York University where I research interactive media using computer networking technology. My other interests include teaching programming, digital accessibility, and making generative sound objects."
+intro: "I'm a sculptor and media scholar turned developer with over five years experience developing websites and digital design for businesses ranging from e-commerce to independent artists. I am pursuing a Master's degree at New York University where I research interactive media using computer networking technology. My other interests include teaching introductory programming, digital accessibility, and making generative sound objects."
 
 skills:
 - Computer Networking for Expressive Media
@@ -38,9 +38,9 @@ experience:
   city: New York City
   achievements: 
     - Work with the accessibility team to develop and test a public facing resource site for New York University's ITP program
+    - Develop a modular front-end interface to interact with a project database
     - Work directly with faculty and staff to scope information priorities and design website architecture
-    - Provide web support for non technical staff to address bugs and errors and incorporate features
-    - Promoted digital accessibility as a design consideration through creating training materials and workshops
+    - Provide tech support for non technical staff to address bugs, errors and incorporate features
 - years: 2018--2019
   employer: Lincoln Center for the Performing Arts
   job: Digital Accessibility Fellow

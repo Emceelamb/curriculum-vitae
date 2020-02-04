@@ -12,3 +12,6 @@ Made with:
 ---
 
 Extended from: [Mr.Zool](https://github.com/mrzool/cv-boilerplate)
+
+Fonts location: /usr/share/texmf-dist
+
