@@ -73,6 +73,10 @@
   citecolor=[rgb]{0.117,0.682,0.858}
 }
 
+% HEADER
+%--------------------------------
+\voffset = -80pt
+
 % DOCUMENT
 %--------------------------------
 \begin{document}
@@ -87,7 +91,7 @@ $for(address)$
 $address$\\
 $endfor$
 
-\vspace{-10pt}
+% \vspace{-10pt}
 
 $phone$\\
 \href{mailto:$email$}{$email$}\\
@@ -102,7 +106,7 @@ $endfor$
 \end{multicols}
 $endif$
 
-\vspace{30pt}
+\vspace{10pt}
 
 $if(intro)$
 $intro$
@@ -119,7 +123,7 @@ $endif$
 
 % \vfill
 
-\vspace{20pt}
+\vspace{10pt}
 
 
 \section*{Previous Experience}
@@ -134,6 +138,7 @@ $if(experience.achievements)$
     \item $experience.achievements$
   $endfor$
 \end{itemize}
+\vspace{10pt}
 $endif$
 $endfor$
 
