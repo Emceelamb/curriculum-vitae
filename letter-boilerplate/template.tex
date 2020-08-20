@@ -1,14 +1,15 @@
 %!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
 
-\documentclass[$fontsize$, a4paper]{article}
+\documentclass[$fontsize$, letterpaper]{article}
 \usepackage{fontspec}
 
 % LAYOUT
 %--------------------------------
-\usepackage{geometry}
+\usepackage[letterpaper]{geometry}
 \geometry{$geometry$}
 
+\hyphenpenalty=10000
 % No page numbers
 \pagenumbering{gobble}
 
@@ -91,15 +92,16 @@ $endif$
 $for(from)$
 \textbullet{} \textsc{$from$}
 $endfor$\\
+$website$\\
 $email$\\
 $github$
 
 \vspace{1em}
 
 \normalsize \sffamily
-$for(to)$
-$to$\\
-$endfor$
+% $for(to)$
+% $to$\\
+% $endfor$
 
 \vspace{3em}
 
@@ -126,8 +128,10 @@ $body$
   {
     %\vspace{5.5\baselineskip}
   }
-  $author$\\
-  $email$
+  $author$\\\small
+  $website$\\\small
+  $email$\\\small
+  $phone$\\\small
 \end{FlushLeft}
 
 \end{document}

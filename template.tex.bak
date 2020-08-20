@@ -1,23 +1,13 @@
 %!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
 
-\documentclass[$fontsize$, letterpaper]{article}
+\documentclass[$fontsize$, a4paper]{article}
 
 % LAYOUT
 %--------------------------------
 % Margins
-\usepackage[
-  letterpaper,
-  ]{geometry}
-%\usepackage[
-%  top    = 3cm,
-%  bottom = 2.50cm,
-%  left   = 0.00cm,
-%  right  = 0.0cm]{geometry}
-
-\usepackage{changepage}
-
-%\geometry{$geometry$}
+\usepackage{geometry} 
+\geometry{$geometry$}
 
 % Set no hypens
 \usepackage[none]{hyphenat}
@@ -27,15 +17,10 @@
 
 % Enable multicolumns
 \usepackage{multicol}
-\setlength{\columnsep}{0em}
-% \setlength{\topmarginV}
-\setlength{\voffset}{-1.25in}
-% \setlength{\hoffset}{0.2in}
-\textheight=10.5in
-\textwidth=6in
+\setlength{\columnsep}{-3.5cm}
 
 % Uncomment to suppress page numbers
-\pagenumbering{gobble}
+% \pagenumbering{gobble}
 
 % LANGUAGE
 %--------------------------------
@@ -56,25 +41,21 @@
 % Cool ampersand
 \newcommand{\amper}{{\fontspec[Scale=.95]{$mainfont$}\selectfont\itshape\&}}
 
-% Itemize indentation
-\usepackage{enumitem}
-\setlist[itemize]{leftmargin=0.5em}
-
 % MARGIN NOTES
 %--------------------------------
 \usepackage{marginnote}
 \newcommand{\note}[1]{\marginnote{\small #1}}
 \renewcommand*{\raggedleftmarginnote}{}
-\setlength{\marginparsep}{0pt}
+\setlength{\marginparsep}{7pt}
 \reversemarginpar
 
 % HEADINGS
 %--------------------------------
 \usepackage{sectsty} 
 \usepackage[normalem]{ulem} 
-\sectionfont{\rmfamily\mdseries\large\textbf} 
-\subsectionfont{\rmfamily\mdseries\scshape\small} 
-\subsubsectionfont{\rmfamily\bfseries\upshape\small} 
+\sectionfont{\rmfamily\mdseries} 
+\subsectionfont{\rmfamily\mdseries\scshape\normalsize} 
+\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize} 
 
 % PDF SETUP
 %--------------------------------
@@ -94,27 +75,23 @@
 
 % HEADER
 %--------------------------------
-\voffset = -60pt
+% \voffset = -80pt
 
 % DOCUMENT
 %--------------------------------
 \begin{document}
 
-% {\LARGE $name$}\\[.2cm]
-
-% \vspace{-20pt}
-$if(urls)$
-\begin{multicols}{4}
 {\LARGE $name$}\\[.2cm]
-$for(address)$
-  {$address$\small}\\
-$endfor$
-\columnbreak
+
+$if(urls)$
+\begin{multicols}{2}
 $endif$
 
+$for(address)$
+$address$\\
+$endfor$
 
 % \vspace{-10pt}
-\columnbreak
 
 $phone$\\
 \href{mailto:$email$}{$email$}\\
@@ -129,16 +106,16 @@ $endfor$
 \end{multicols}
 $endif$
 
-\vspace{0em}
-% \vspace{30pt}
+% \vspace{10pt}
+\vspace{30pt}
 
 $if(intro)$
 $intro$
 $endif$
 
-\section*{Technical Skills}
+\subsection*{Technical Skills}
 $if(skills)$
-\begin{itemize}\small\setlength\itemsep{0em} 
+\begin{itemize}
     $for(skills)$
       \item $skills$
     $endfor$
@@ -154,15 +131,15 @@ $endif$
 \noindent
 $for(experience)$
 \note{$experience.years$}\textsc{$experience.employer$}\\
-\emph{$experience.job$}, $experience.city$\small \\
+\emph{$experience.job$}\\
+$experience.city$
 $if(experience.achievements)$
-\vspace{-1em}
-\begin{itemize}\small\setlength\itemsep{0em} 
+\begin{itemize}\small
   $for(experience.achievements)$
     \item $experience.achievements$
   $endfor$
 \end{itemize}
-\vspace{0.5em}
+\vspace{10pt}
 $endif$
 $endfor$
 
@@ -175,7 +152,6 @@ $for(education)$
 $endfor$
 $endif$
 
-\vspace{-1em}
 $if(work)$
 \section*{Projects \& Workshops}
 \noindent
@@ -183,7 +159,7 @@ $for(work)$
 \note{$work.year$}\textbf{$work.title$}$if(work.subject)$, $work.subject$$endif$\\
 \emph{$work.institute$}$if(work.city)$, $work.city$$endif$
 $if(work.goals)$
-\begin{itemize}\setlength\itemsep{0em}\small
+\begin{itemize}\small
   $for(work.goals)$
     \item $work.goals$
   $endfor$

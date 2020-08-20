@@ -1,14 +1,15 @@
 ---
-subject: Site Reliability Engineer- Cloud Technology
+subject: Software Development Engineer Intern
 author: Mark Lam
 city: Brooklyn
 from:
 - Brooklyn, NY
-to:
-- Adobe Systems 
+to: 
+-   
 website: markofthelam.com
-email: mark@markofthelam.com
+email: mlam@nyu.edu
 github: github.com/emceelamb
+phone: 1-661-478-9651
 
 # Settings
 mainfont: Inter
@@ -21,14 +22,14 @@ geometry: a4paper, left=35mm, right=35mm, top=50mm, bottom=25mm
 # customdate: YYYY-MM-DD
 ---
 
-Dear Hiring Manager,
+Dear Hiring Manager
 
-Lately, I have been thinking about how modern technologies can effect tangible change. I feel that the vision of Adobe systems is aligned with my interests by producing tools and services for designers and artists. Having come from a design background I extensively used Adobe tools and as I moved towards technical roles it has been a dream of mine to work with Adobe Systems and in the role of a Site Reliability I would be able to have an impact throughout the deployment pipeline.
+I read with interest about the Web Accessibility and Engineering opportunities with Uptime2020. I recently completed my Master's degree at New York University in the Interactive Telecommunications Program (ITP), where I focused on creating accessible interactive technology, while working with one of the nation's largest performing arts institutions.
 
-For the past two years I have been fully immersed in emerging technology while studying at New York University Interactive Telecommunications Program. I studied computer networking and network security NYU's Tandon School of Engineering and developed a passion for networking related projects from packet analysis to visualizing the layers in the OSI model. From this research I developed teaching materials and workshops on topics ranging from automation with Bash Scripting to practical digital security practices.
+My research explores a range of emerging technology, building on over 3 years of experience as a developer. Previously, I was a Digital Accessibility Fellow at Lincoln Center for the Performing Arts, where I audited their digital platforms to meet established accessibility standards. In addition my in-depth knowledge of accessibility, I am experienced in software development. While project lead at NYU's ITP Web Access team, I improved their web infrastructure by developing a front-end interface to a project database that is fully compliant to WCAG standards. I coordinated development with project managers, and designers using github and other collaborative design software.
 
-My diverse background working in design and warehouse operations provides me a unique experience with collaborating between teams, building automation tools and processes to foster cooperation between business and operations.
+I am passionate about making accessible technology and projects for social impact. I have led workshops in conferences to talk about importance of digital security and practical measures to take. Recently, I am working with a group of volunteers to develop an archive of NYC Department of Transportation footage to address concerns surrounding police misconduct in support of the Black Lives Matters Movement.
 
-I would love to schedule a time for us to discuss this role and how my experience can contribute to Adobe Systems and I would like to thank you for considering me. 
+I believe that I am a good fit to work with Uptime2020 to create accessible tools, especially around civic technology and social good. I would love the opportunity to schedule a time for us to discuss further about how I can work with Uptime2020. Thank you for your time and consideration. 
 
 Sincerely,
