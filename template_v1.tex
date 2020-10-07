@@ -94,7 +94,7 @@
 
 % HEADER
 %--------------------------------
-\voffset = -70pt
+\voffset = -60pt
 
 % DOCUMENT
 %--------------------------------
@@ -130,13 +130,25 @@ $endfor$
 \end{multicols}
 $endif$
 
-\vspace{-1em}
+\vspace{0em}
 % \vspace{30pt}
 
 $if(intro)$
 $intro$
 $endif$
 
+\section*{Technical Skills}
+$if(skills)$
+\begin{itemize}\small\setlength\itemsep{0em} 
+    $for(skills)$
+      \item $skills$
+    $endfor$
+\end{itemize}
+$endif$
+
+% \vfill
+
+% \vspace{10pt}
 
 
 \section*{Professional Experience}
@@ -155,9 +167,18 @@ $if(experience.achievements)$
 $endif$
 $endfor$
 
+$if(education)$
+\section*{Education}
+\noindent
+$for(education)$
+\note{$education.year$}\textbf{$education.subject$}$if(education.degree)$, $education.degree$$endif$\\
+\emph{$education.institute$}$if(education.city)$, $education.city$$endif$\\[.2cm]
+$endfor$
+$endif$
+
 \vspace{-1em}
 $if(work)$
-\section*{Projects}
+\section*{Projects \& Workshops}
 \noindent
 $for(work)$
 \note{$work.year$}\textbf{$work.title$}$if(work.subject)$, $work.subject$$endif$\\
@@ -169,28 +190,6 @@ $if(work.goals)$
   $endfor$
 \end{itemize}
 $endif$
-$endfor$
-$endif$
-
-\section*{Technical Skills}
-$if(skills)$
-\begin{itemize}\small\setlength\itemsep{0em} 
-    $for(skills)$
-      \item $skills$
-    $endfor$
-\end{itemize}
-$endif$
-
-% \vfill
-
-% \vspace{10pt}
-
-$if(education)$
-\section*{Education}
-\noindent
-$for(education)$
-\note{$education.year$}\textbf{$education.subject$}$if(education.degree)$, $education.degree$$endif$\\
-\emph{$education.institute$}$if(education.city)$, $education.city$$endif$\\[.2cm]
 $endfor$
 $endif$
 

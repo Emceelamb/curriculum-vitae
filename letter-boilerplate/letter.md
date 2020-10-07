@@ -1,5 +1,5 @@
 ---
-subject: Software Development Engineer Intern
+subject: Junior Web Developer
 author: Mark Lam
 city: Brooklyn
 from:
@@ -24,12 +24,13 @@ geometry: a4paper, left=35mm, right=35mm, top=50mm, bottom=25mm
 
 Dear Hiring Manager
 
-I read with interest about the Web Accessibility and Engineering opportunities with Uptime2020. I recently completed my Master's degree at New York University in the Interactive Telecommunications Program (ITP), where I focused on creating accessible interactive technology, while working with one of the nation's largest performing arts institutions.
+I read with interest about the Junior Web Developer position with Other Means. I recently completed my Master's degree at New York University in the Interactive Telecommunications Program (ITP), where I focused on developing accessible interactive technology, building upon prior experience as a web developer.
 
-My research explores a range of emerging technology, building on over 3 years of experience as a developer. Previously, I was a Digital Accessibility Fellow at Lincoln Center for the Performing Arts, where I audited their digital platforms to meet established accessibility standards. In addition my in-depth knowledge of accessibility, I am experienced in software development. While project lead at NYU's ITP Web Access team, I improved their web infrastructure by developing a front-end interface to a project database that is fully compliant to WCAG standards. I coordinated development with project managers, and designers using github and other collaborative design software.
+In a past life, I studied graphic and multi-media design, working as a graphic designer for museums and e-commerce websites. I later picked up web development as a means to see a project through from design to implementation and have since primarily worked as a developer, while retaining my acumen for quality design and keeping up with design trends.
 
-I am passionate about making accessible technology and projects for social impact. I have led workshops in conferences to talk about importance of digital security and practical measures to take. Recently, I am working with a group of volunteers to develop an archive of NYC Department of Transportation footage to address concerns surrounding police misconduct in support of the Black Lives Matters Movement.
+My current work explores a range of emerging technology, building on experience as a web developer. I was a Digital Accessibility Fellow at Lincoln Center for the Performing Arts, where I audited their digital platforms to meet established accessibility standards. While at NYU, I was a project lead for NYU's ITP Web Access team. I improved their web infrastructure by developing a front-end interface to a project database. I coordinated development with project managers, and designers using github and other collaborative design software such as Figma.
 
-I believe that I am a good fit to work with Uptime2020 to create accessible tools, especially around civic technology and social good. I would love the opportunity to schedule a time for us to discuss further about how I can work with Uptime2020. Thank you for your time and consideration. 
+I am passionate about rich interactive experiences and bringing to life evocative design. I have extensive experience working as a free lance developer with clients that use a range of technology as well as collaborating with designers and project managers. With my diverse background in both design and development, I would be eager to speak further how I can collaborate with Other Means studio.
+
 
 Sincerely,
