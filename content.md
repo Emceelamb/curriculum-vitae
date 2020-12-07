@@ -19,11 +19,19 @@ skills:
 - Full Stack Web Development - React, VueJS, Wordpress, NodeJS + ExpressJS, Flask, Postgresql, Mongodb
 - Operations - \*NIX System Administration, Git, Heroku, Docker, Squid, Wireshark, cPanel
 #- Creative Coding - Processing, P5JS, Open Frameworks, Glitch, D3JS
-- Programming Languages - Bash, Javascript, Node JS, Python, Go, C
+- Programming Languages - Bash, JavaScript, Node JS, Python, Go, C
 # - Hardware - Raspberry Pi, Arduino, ESP8266
 - Digital Accessibility Standards - WCAG 2.1, Section 508
 
 experience:
+- years: October 2020--
+  employer: Codecademy
+  job: Content Contributor
+  city: New York City
+  achievements: 
+    - Write lesson content for online programming courses for beginner coders to explain web technologies
+    - Develop learning standards and to measure learner success
+    - Create unit test to evaluate learner code inputs in JavaScript to ensure correct exercise completion  
 - years: Dec 2015--
   employer: Mark of the Lam
   job: Freelance Developer
@@ -61,13 +69,13 @@ experience:
 #    - Created an automated work process for captioning a catalog of over 1000 hours of video content
     - Audited internal and external digital media of a world-class performing arts institution and write recommendations to meet WCAG 2.1 and Section 508 compliance
     - Prototype a fully compliant digital map of campus accessibility features to simplify wayfinding
-- years: June 2017 - \newline May 2018
-  employer: Ho Chi Minh City University of Technology & Education
-  job: Visiting Lecturer -- Introductory Programming, English
-  city: Ho Chi Minh City
-  achievements: 
-    - Developed an introductory English/programming curriculum in the C language for non-native English speaking engineering students, and worked with student leaders to promote extracurricular English study
-    - Led supplemental workshops in specialized programming topics such as web design and portfolio building 
+#- years: June 2017 - \newline May 2018
+#  employer: Ho Chi Minh City University of Technology & Education
+#  job: Visiting Lecturer -- Introductory Programming, English
+#  city: Ho Chi Minh City
+#  achievements: 
+#    - Developed an introductory English/programming curriculum in the C language for non-native English speaking engineering students, and worked with student leaders to promote extracurricular English study
+#    - Led supplemental workshops in specialized programming topics such as web design and portfolio building 
 
 education:
 - year: Fall I 2020
