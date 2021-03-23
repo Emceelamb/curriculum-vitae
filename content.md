@@ -24,14 +24,22 @@ skills:
 - Digital Accessibility Standards - WCAG 2.1, Section 508
 
 experience:
+- years: January 2020--
+  employer: United Nations
+  job: Data Analytics - Front-End Developer
+  city: New York City
+  achievements: 
+    - Design front-end infrastructure for an open data platform to make Peace and Security data more accessible and reliable
+    - Developed Docker containerization to simplify deployment to Azure
+    - Developed headless Drupal instance with React front-end to allow for non-technical content editing
 - years: October 2020--
   employer: Codecademy
   job: Content Contributor
   city: New York City
   achievements: 
-    - Write lesson content for online programming courses for beginner coders to explain web technologies
-    - Develop learning standards and to measure learner success
-    - Create unit test to evaluate learner code inputs in JavaScript to ensure correct exercise completion  
+    - Write lesson content for online programming courses explaining web technologies for beginner and intermediate programmers
+    - Develop learning standards and to measure learning success and outcomes
+    - Create unit test with Javascript and RegEx to evaluate learner inputs to ensure correct exercise completion  
 - years: Dec 2015--
   employer: Mark of the Lam
   job: Freelance Developer
