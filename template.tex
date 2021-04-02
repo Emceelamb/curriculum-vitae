@@ -156,21 +156,21 @@ $endif$
 $endfor$
 
 \vspace{-1em}
-$if(work)$
-\section*{Projects}
-\noindent
-$for(work)$
-\note{$work.year$}\textbf{$work.title$}$if(work.subject)$, $work.subject$$endif$\\
-\emph{$work.institute$}$if(work.city)$, $work.city$$endif$
-$if(work.goals)$
-\begin{itemize}\setlength\itemsep{0em}\small
-  $for(work.goals)$
-    \item $work.goals$
-  $endfor$
-\end{itemize}
-$endif$
-$endfor$
-$endif$
+% $if(work)$
+% \section*{Projects}
+% \noindent
+% $for(work)$
+% \note{$work.year$}\textbf{$work.title$}$if(work.subject)$, $work.subject$$endif$\\
+% \emph{$work.institute$}$if(work.city)$, $work.city$$endif$
+% $if(work.goals)$
+% \begin{itemize}\setlength\itemsep{0em}\small
+%   $for(work.goals)$
+%     \item $work.goals$
+%   $endfor$
+% \end{itemize}
+% $endif$
+% $endfor$
+% $endif$
 
 \section*{Technical Skills}
 $if(skills)$

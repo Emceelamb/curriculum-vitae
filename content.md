@@ -24,20 +24,21 @@ skills:
 - Digital Accessibility Standards - WCAG 2.1, Section 508
 
 experience:
-- years: January 2020--
+- years: January 2021--
   employer: United Nations
   job: Data Analytics - Front-End Developer
   city: New York City
   achievements: 
-    - Design front-end infrastructure for an open data platform to make Peace and Security data more accessible and reliable
-    - Developed Docker containerization to simplify deployment to Azure
-    - Developed headless Drupal instance with React front-end to allow for non-technical content editing
+    - Design technical infrastructure for the front-end of an open data platform to make Peace and Security data more accessible and reliable
+    - Implement Docker containerization to simplify deployment to Azure Cloud Service
+    - Develop headless Drupal instance with React front-end to allow for non-technical content editing
 - years: October 2020--
   employer: Codecademy
   job: Content Contributor
   city: New York City
   achievements: 
     - Write lesson content for online programming courses explaining web technologies for beginner and intermediate programmers
+    - Develop course content for full stack Django development and creative coding with p5.js
     - Develop learning standards and to measure learning success and outcomes
     - Create unit test with Javascript and RegEx to evaluate learner inputs to ensure correct exercise completion  
 - years: Dec 2015--
@@ -88,7 +89,6 @@ experience:
 education:
 - year: Fall I 2020
   subject: Participant
-  <!-- degree: Master of Professional Studies -->
   institute: Recurse Center
   city: New York City
 - year: May 2020
@@ -107,22 +107,22 @@ education:
   institute: College of the Canyons
   city: Valencia
 
-work:
-- year: 2020
-  title: ITP Project Finder
-  subject: Front-end Web Development, Accessibility 
-  institute: NYU ITP
-  city: New York City
-  goals:
-    - Front-end redesign and development of ITP's student project database to meet  NYU's accessibility initiative
-- year: 2020
-  title: Bridge to the Internet
-  subject: Website, Open Source Software, Computer Networking
-  institute: NYU ITP | Presented at Our Networks 2020
-  city: New York City
-  goals:
-    - WiFi AP & Router image for Raspberry Pi with Squid Proxy cache, Pi Hole ad-blocker & Node/Websockets local chat app
-    - Website built with Vue.js to explain concepts in computer networking 
+#work:
+#- year: 2020
+#  title: ITP Project Finder
+#  subject: Front-end Web Development, Accessibility 
+#  institute: NYU ITP
+#  city: New York City
+#  goals:
+#    - Front-end redesign and development of ITP's student project database to meet  NYU's accessibility initiative
+#- year: 2020
+#  title: Bridge to the Internet
+#  subject: Website, Open Source Software, Computer Networking
+#  institute: NYU ITP | Presented at Our Networks 2020
+#  city: New York City
+#  goals:
+#    - WiFi AP & Router image for Raspberry Pi with Squid Proxy cache, Pi Hole ad-blocker & Node/Websockets local chat app
+#    - Website built with Vue.js to explain concepts in computer networking 
 #- year: 2019
 #  title: Automating Mindfully
 #  subject: Technical Workshop
