@@ -16,7 +16,7 @@ urls:
 #intro: "Sculptor and graphic designer turned developer with an accessibility focus. I have over three years of experience developing websites and digital design for businesses ranging from e-commerce to educational institutions. I take an interdisciplinary approach to interactive media and computer networking technology. My other interests include teaching programming, digital accessibility, and making generative sound objects."
 
 skills:
-- Full Stack Web Development - React, VueJS, Wordpress, NodeJS + ExpressJS, Flask, Postgresql, Mongodb
+- Full Stack Web Development - React, VueJS, Wordpress, NodeJS + ExpressJS, Figma, Postgresql, Mongodb
 - Operations - \*NIX System Administration, Git, Heroku, Docker, Squid, Wireshark, cPanel
 #- Creative Coding - Processing, P5JS, Open Frameworks, Glitch, D3JS
 - Programming Languages - Bash, JavaScript, Node JS, Python, Go, C
@@ -29,16 +29,17 @@ experience:
   job: Data Analytics - Front-End Developer
   city: New York City
   achievements: 
-    - Design technical infrastructure for the front-end of an open data platform to make Peace and Security data more accessible and reliable
+    - Design and develop front-end of an open data platform to make Peace and Security data more accessible and reliable
     - Implement Docker containerization to simplify deployment to Azure Cloud Service
     - Develop headless Drupal instance with React front-end to allow for non-technical content editing
+    - Implement authentication using OAuth and Azure Active Directory
 - years: October 2020--
   employer: Codecademy
   job: Content Contributor
   city: New York City
   achievements: 
     - Write lesson content for online programming courses explaining web technologies for beginner and intermediate programmers
-    - Develop course content for full stack Django development and creative coding with p5.js
+    - Develop course content for full stack Django development, authentication with Node.js, and creative coding with p5.js
     - Develop learning standards and to measure learning success and outcomes
     - Create unit test with Javascript and RegEx to evaluate learner inputs to ensure correct exercise completion  
 - years: Dec 2015--
