@@ -5,7 +5,7 @@ address:
 #- 1770 Dean Street
 - Brooklyn, New York
 #phone: "+1 661 478 9651"
-email: marklam.designs@gmail.com
+email: "mlam@nyu.edu"
 # Insert URLs without http://
 urls:
 - markofthelam.com
