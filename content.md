@@ -5,7 +5,7 @@ address:
 #- 1770 Dean Street
 - Brooklyn, New York
 #phone: "+1 661 478 9651"
-email: mlam@nyu.edu
+email: marklam.designs@gmail.com
 # Insert URLs without http://
 urls:
 - markofthelam.com
@@ -16,30 +16,36 @@ urls:
 #intro: "Sculptor and graphic designer turned developer with an accessibility focus. I have over three years of experience developing websites and digital design for businesses ranging from e-commerce to educational institutions. I take an interdisciplinary approach to interactive media and computer networking technology. My other interests include teaching programming, digital accessibility, and making generative sound objects."
 
 skills:
-- Full Stack Web Development - React, VueJS, Wordpress, NodeJS + ExpressJS, Figma, Postgresql, Mongodb
-- Operations - \*NIX System Administration, Git, Heroku, Docker, Squid, Wireshark, cPanel
-#- Creative Coding - Processing, P5JS, Open Frameworks, Glitch, D3JS
-- Programming Languages - Bash, JavaScript, Node JS, Python, Go, C
-# - Hardware - Raspberry Pi, Arduino, ESP8266
-- Digital Accessibility Standards - WCAG 2.1, Section 508
+- Full Stack Web Development - React, VueJS, Django, Flask NodeJS, Figma, Postgresql
+- Operations - \*NIX System Administration, Git, Heroku, Docker,  Wireshark
+- Creative Coding - Processing, P5JS, Open Frameworks, Glitch, D3JS
+#- Programming Languages - Bash, JavaScript, Node JS, Python, Go, C
+- Hardware - Raspberry Pi, Arduino, ESP8266
+#- Digital Accessibility Standards - WCAG 2.1, Section 508
 
 experience:
-- years: January 2021--
+- years: Aug 2021--
+  employer: Vector Space Biosciences
+  job: Data Visualization & Product Engineer
+  city: New York City
+  achievements: 
+    - Designed and developed a data driven web app to visualize NLP correlated stocks using Next.js/ TypeScript with a Django Rest Framework back-end
+    - Developed microservice Docker containers including FastAPI, Next.js, Certbot, Django, and NGINX
+    - Implement JWT authentication and user accounts Django users
+- years: Jan 2021- \newline Apr 2022
   employer: United Nations
   job: Data Analytics - Front-End Developer
   city: New York City
   achievements: 
-    - Design and develop front-end of an open data platform to make Peace and Security data more accessible and reliable
-    - Implement Docker containerization to simplify deployment to Azure Cloud Service
-    - Develop headless Drupal instance with React front-end to allow for non-technical content editing
+    - Developed a data driven front-end React app for an open data platform
+    - Implemented Docker containerization to simplify deployment to Azure Cloud Service
     - Implement authentication using OAuth and Azure Active Directory
-- years: October 2020--
+- years: Oct 2020--
   employer: Codecademy
   job: Content Contributor
   city: New York City
   achievements: 
-    - Write lesson content for online programming courses explaining web technologies for beginner and intermediate programmers
-    - Develop course content for full stack Django development, authentication with Node.js, and creative coding with p5.js
+    - Develop course content for Linux, Django development, authentication with Node.js, and creative coding.
     - Develop learning standards and to measure learning success and outcomes
     - Create unit test with Javascript and RegEx to evaluate learner inputs to ensure correct exercise completion  
 - years: Dec 2015--
@@ -47,10 +53,8 @@ experience:
   job: Freelance Developer
   city: New York City, Ho Chi Minh City, Los Angeles, Berkeley
   achievements: 
-    - Design and develop websites for business ranging from personal artists to independent publishing houses to promote products, events and services with clients located in Israel, Qatar, Hong Kong, and United States through Upwork
-    - Implemented AJAX queries to database to automate content population and showcase projects
-    - Custom Ghost CMS theme development with Handlebars.js and Stripe integration to drive subscription and membership
-    - Work with clients and account managers to define scope of work and create development timelines for deliverables
+    - Design and develop websites for business ranging from personal artists to independent publishing houses to promote products, events and services with clients located in Israel, Qatar, Hong Kong, and United States
+    - Work with clients to define scope of work and create development timelines for deliverables
 # - years: 2019-2020
 #   employer: New York University - ITP
 #   job: Graduate Assistant -- Coding Lab Mentor
