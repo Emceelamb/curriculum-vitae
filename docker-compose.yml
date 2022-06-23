@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  cv:
+    build:
+      context: .
+    image: mingc/latex
+    command: bash -c "make"
+    volumes:
+      - .:/data

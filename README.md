@@ -12,6 +12,6 @@ Made with:
 ---
 
 Extended from: [Mr.Zool](https://github.com/mrzool/cv-boilerplate)
+Dockerfile based on: [MingC](https://github.com/mingchen/docker-latex)
 
-Fonts location: /usr/share/texmf-dist
 
