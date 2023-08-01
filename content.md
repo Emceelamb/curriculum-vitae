@@ -19,20 +19,21 @@ skills:
 - Full Stack Web Development - React, VueJS, D3.js, three.js, Django, Flask NodeJS, Figma, Postgresql
 - Operations - \*NIX System Administration, Git, Heroku, Docker,  Wireshark, GCP, Azure
 #- Creative Coding - Processing, P5JS, Open Frameworks, Glitch, D3JS
-#- Programming Languages - Bash, JavaScript, Node JS, Python, Go, C
-- Hardware - Raspberry Pi, Arduino, ESP8266, WiFi 
+- Programming Languages - TypeScript, Bash, JavaScript, Node.js, Python, HTML/CSS
+#- Hardware - Raspberry Pi, Arduino, ESP8266, WiFi 
 #- Digital Accessibility Standards - WCAG 2.1, Section 508
 
 experience:
-- years: Sept 2022-- \newline Present
+- years: Sept 2022-- \newline May 2023 \newline (impacted \newline by layoffs)
   employer: Capitol AI
   job: Software Engineer
   city: New York City
   achievements: 
-  - Bootstrap greenfield project architecture using Next.ts, e2e testing with Cypress, and CI/CD using Github workflows to ensure stable release environments during rapid iteration
-  - Develop custom data visualization components using d3, Visx, and Vega-Lite
-  - Contribute to a design system component library using TypeScript, Storybook, and Vanilla Extract and collaborate with design team for high-fidelity implementations of Figma designs
-  - Review pull requests mentor product engineering team to meet project delivery timelines  
+  - Bootstrapped greenfield project architecture using Next.js, e2e testing with Cypress, and CI/CD using GitHub workflows to ensure stable release environments during rapid iteration
+  - Developed custom data visualization components using d3, Visx, and Vega-Lite and web text editor
+  - Contributed to a design system component library using TypeScript, Storybook, and CSS-in-JS, and collaborate with design team for high-fidelity implementations of Figma designs
+  - Developed GPT enabled tools for modifying web visualizations
+  - Reviewed pull requests, mentor junior engineers to meet project timelines and high code quality standards
 
 - years: Aug 2021-- \newline June 2022
   employer: Vector Space Biosciences
@@ -40,7 +41,7 @@ experience:
   city: New York City
   achievements: 
     - Designed and developed a data driven web app with Next.js/ TypeScript with FastAPI to demo a near-real-time NLP pipeline for an investor conference which led to immediate investment leads 
-    - Productized a demo app by implementing a user account system using Django Rest Framework authentication to Next.js app and assisted with implementing Stripe subscription for web app
+    - Productized a demo app by implementing a user account system using Django Rest Framework authentication to Next.js app and implementing a Stripe subscription 
     - Conducted user interviews, designed mockup in Figma, and created a component library for interactive graphs using D3.js and three.js to visualize complex datasets in the biology and finance domains
     - Developed microservice Docker development environment and deployment including FastAPI, Next.js, Certbot, Django, and NGINX on GCP Cloud Compute Engine to simplify onboarding of new team members
 - years: Jan 2021-- \newline Apr 2022
@@ -50,7 +51,7 @@ experience:
   achievements: 
     - Developed a data driven front-end React app for an open data platform to enable UN staff to securely share data to the public and internal colleagues, collaborating with designers, data analysts, and security teams-- The prototype was successfully used to fundraise $1M for the continuation of the project and was nominated for a Secretary General Award for workflow innovation
     - Implemented authentication using OAuth and Azure Active Directory to restrict access to privileged datasets and connect with UN's internal directory and deployed to Azure Web Services
-- years: Oct 2020-- \newline Present
+- years: Oct 2020-- \newline April 2022
   employer: Codecademy
   job: Content Contributor
   city: New York City
