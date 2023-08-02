@@ -15,11 +15,11 @@ urls:
 
 #intro: "Sculptor and graphic designer turned developer with an accessibility focus. I have over three years of experience developing websites and digital design for businesses ranging from e-commerce to educational institutions. I take an interdisciplinary approach to interactive media and computer networking technology. My other interests include teaching programming, digital accessibility, and making generative sound objects."
 
-skills:
-- Full Stack Web Development - React, VueJS, D3.js, three.js, Django, Flask NodeJS, Figma, Postgresql
-- Operations - \*NIX System Administration, Git, Heroku, Docker,  Wireshark, GCP, Azure
+#skills:
+#- Full Stack Web Development - React, VueJS, D3.js, three.js, Django, Flask NodeJS, Figma, Postgresql
+#- Operations - \*NIX System Administration, Git, Heroku, Docker,  Wireshark, GCP, Azure
 #- Creative Coding - Processing, P5JS, Open Frameworks, Glitch, D3JS
-- Programming Languages - TypeScript, Bash, JavaScript, Node.js, Python, HTML/CSS
+#- Programming Languages - TypeScript, Bash, JavaScript, Node.js, Python, HTML/CSS
 #- Hardware - Raspberry Pi, Arduino, ESP8266, WiFi 
 #- Digital Accessibility Standards - WCAG 2.1, Section 508
 
@@ -31,7 +31,7 @@ experience:
   achievements: 
   - Bootstrapped greenfield project architecture using Next.js, e2e testing with Cypress, and CI/CD using GitHub workflows to ensure stable release environments during rapid iteration
   - Developed custom data visualization components using d3, Visx, and Vega-Lite and web text editor
-  - Contributed to a design system component library using TypeScript, Storybook, and CSS-in-JS, and collaborate with design team for high-fidelity implementations of Figma designs
+  - Contributed to a design system component library using TypeScript, Storybook, CSS-in-JS, and collaborate with design team for high-fidelity implementations of Figma designs
   - Developed GPT enabled tools for modifying web visualizations
   - Reviewed pull requests, mentor junior engineers to meet project timelines and high code quality standards
 
@@ -49,7 +49,7 @@ experience:
   job: Data Analytics - Front-End Developer
   city: New York City
   achievements: 
-    - Developed a data driven front-end React app for an open data platform to enable UN staff to securely share data to the public and internal colleagues, collaborating with designers, data analysts, and security teams-- The prototype was successfully used to fundraise $1M for the continuation of the project and was nominated for a Secretary General Award for workflow innovation
+    - Developed a data driven React app for an open data platform to enable UN staff to securely share data to the public and internal colleagues, collaborating with designers, data analysts, and security teams-- The prototype was successfully used to fundraise $1M for the continuation of the project and was nominated for a Secretary General Award for workflow innovation
     - Implemented authentication using OAuth and Azure Active Directory to restrict access to privileged datasets and connect with UN's internal directory and deployed to Azure Web Services
 - years: Oct 2020-- \newline April 2022
   employer: Codecademy
@@ -78,14 +78,14 @@ experience:
 #     - Mentored and trained students in web accessible programming paradigms so students will consider impact of accessibility throughout their development career 
 #    - Collaborated with UX designers and faculty to create educational materials and data visualization
 #    - Assessed and correct digital accessibility issues in accordance to WCAG standards
-#- years: Sep 2018 - \newline Aug 2019
-#  employer: Lincoln Center for the Performing Arts
-#  job: Digital Accessibility Fellow
-#  city: New York City
-#  achievements: 
-#    - Created accessibility training material for engineering and legal departments to promote access for a diverse customer base
+- years: Sep 2018 - \newline Aug 2019
+  employer: Lincoln Center for the Performing Arts
+  job: Digital Accessibility Fellow
+  city: New York City
+  achievements: 
+    - Created accessibility training material for engineering and legal departments to promote access 
 #    - Created an automated work process for captioning a catalog of over 1000 hours of video content
-#    - Audited internal and external digital media of a world-class performing arts institution and write recommendations to meet WCAG 2.1 and Section 508 compliance
+    - Audited internal and external digital media of a world-class performing arts institution and write recommendations to meet WCAG 2.1 and Section 508 compliance
 #    - Prototype a fully compliant digital map of campus accessibility features to simplify wayfinding
 #- years: June 2017 - \newline May 2018
 #  employer: Ho Chi Minh City University of Technology & Education
